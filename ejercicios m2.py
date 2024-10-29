@@ -1,3 +1,11 @@
-radius = float(input("What's the radius of the circle?: "))
-print(f"The circumference of the circle is {radius * 2 * 3.14}.")
-print(f"The area of the circle is {3.14 * radius * radius}.")
+import math
+
+radio = float(input("Ingrese el radio del círculo: "))
+
+# Calcular el perímetro (circunferencia) y el área
+perimetro = 2 * math.pi * radio
+area = math.pi * radio ** 2
+
+# Mostrar los resultados
+print(f"El perímetro del círculo es: {perimetro}")
+print(f"El área del círculo es: {area}")
